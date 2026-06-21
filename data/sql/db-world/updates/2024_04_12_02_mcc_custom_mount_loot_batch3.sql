@@ -195,10 +195,10 @@ DELETE FROM `creature_loot_template` WHERE (`Entry` = 20657) AND (`Item` IN (858
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES
 (20657, 85870, 0, 2, 0, 1, 0, 1, 1, '');
 
--- Charlga Razorflank
-DELETE FROM `creature_loot_template` WHERE (`Entry` = 4421) AND (`Item` IN (138387));
+-- 唤地者哈穆加
+DELETE FROM `creature_loot_template` WHERE (`Entry` = 4842) AND (`Item` IN (138387));
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES
-(4421, 138387, 0, 1, 0, 1, 0, 1, 1, '');
+(4842, 138387, 0, 1, 0, 1, 0, 1, 1, '');
 
 -- Harbinger Skyriss
 DELETE FROM `creature_loot_template` WHERE (`Entry` = 21601) AND (`Item` IN (112327));

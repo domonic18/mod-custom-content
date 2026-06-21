@@ -12,12 +12,6 @@ DELETE FROM `creature_loot_template` WHERE (`Entry` = 1853) AND (`Item` IN (9100
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES
 (1853, 91000, 0, 1, 0, 1, 0, 1, 1, '');
 
-
--- Emperor Dagran Thaurissan（黑石深渊）掉落 熔火恶犬（91001）
-DELETE FROM `creature_loot_template` WHERE (`Entry` = 9019) AND (`Item` IN (91001));
-INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES
-(9019, 91001, 0, 1, 0, 1, 0, 1, 1, '');
-
 -- General Drakkisath（黑石塔上层）掉落 邪刃豹（91003）
 DELETE FROM `creature_loot_template` WHERE (`Entry` = 10363) AND (`Item` IN (91003));
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES
