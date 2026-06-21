@@ -101,6 +101,8 @@ INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `Q
 (15688, 93169, 0, 3, 0, 1, 0, 1, 1, '');
 
 -- Kalecgos
+UPDATE `creature_template` SET `lootid` = 24850 WHERE `entry` = 24850;
+
 DELETE FROM `creature_loot_template` WHERE (`Entry` = 24850) AND (`Item` IN (166776));
 INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES
 (24850, 166776, 0, 2, 0, 1, 0, 1, 1, '');
